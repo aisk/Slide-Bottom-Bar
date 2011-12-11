@@ -59,7 +59,7 @@ public class BottomBar extends LinearLayout {
 					mSelectedBtn = 3;
 				else if (view == mBtn4)
 					mSelectedBtn = 4;
-				Log.d("Selected Button:", String.valueOf(mSelectedBtn));
+				//Log.d("Selected Button:", String.valueOf(mSelectedBtn));
 
 				tarRectF.left = view.getLeft() + 10;
 				tarRectF.right = view.getRight() - 10;
@@ -88,7 +88,7 @@ public class BottomBar extends LinearLayout {
 	@Override
 	public void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
-		Log.d("Validated!", "Should not always validate");
+		//Log.d("Validated!", "Should not always validate");
 		int step = getWidth()/30;
 		canvas.drawColor(Color.BLACK);
 		paint.setColor(Color.LTGRAY);
